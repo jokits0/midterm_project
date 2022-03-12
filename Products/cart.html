@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OnlyFoods</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../About/about.html"><img src="/img/logo_nobackground.png" alt="onlyfoods logo"></a>
+        </div>
+        <div class="nav-bar">
+            <ul class="list">
+                <li class="unselected"><a href="../index.html">Home</a></li>
+                <li class="selected"><a href="../Products/products.html">Products</a></li>
+                <li class="unselected"><a href="../About/about.html">About us</a></li>
+                <li class="unselected"><a href="../Registration/registration.html" >Sign in</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <img src="../img/cart.png" alt="shopping_cart" width="40"> Cart
+    </div>
+    <form action="#">
+        <table>
+            <tr align="left">
+                <td>Payment method:</td>
+                <td>
+                    <select name="payment_method" id="">
+                        <option value="payment_COD">Cash on Delivery</option>
+                        <option value="payment_card">Credit/Debit Card</option>
+                    </select>
+                </td>
+            </tr>
+            <tr align="left">
+                <td>Voucher code:</td>
+                <td><input type="text" name="voucher_code" size="15"></td>
+            </tr>
+            <tralign="left">
+                <td>Estimated Arrival:</td>
+                <td><u>20-22 MAR</u></td>
+            </tr>
+            <tr align="left">
+                <td>Freebies:</td>
+                <td>
+                    <select name="freebies">
+                        <option value="freebie_shovel">Mini Shovel</option>
+                        <option value="freebie_seed">Seed (random)</option>
+                        <option value="freebie_soil">Soil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp</td>
+            </tr>
+        </table>
+    </form>
+    <div class="btn">
+        <a href="../Products/products.html" class="submit-btn"onclick="alert('Thank you for choosing our service')">Place Order</a>
+    </div>
+
+</body>
+</html>
